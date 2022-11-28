@@ -1,7 +1,7 @@
 {
-  "name": "react-rmdb",
-  "version": "0.1.0",
-  "homepage": "https://shbhmj.github.io/react-movies/",
+  "name": "react-movies",
+  "version": "0.1.1",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "gh-pages": "^4.0.0",
@@ -14,10 +14,10 @@
     "styled-components": "^5.3.0"
   },
   "scripts": {
-    "start": "PUBLIC_URL=/ react-scripts start",
+    "start": "react-scripts start",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
-    "build": "PUBLIC_URL=/ react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
