@@ -14,10 +14,10 @@
     "styled-components": "^5.3.0"
   },
   "scripts": {
-    "start": "PUBLIC_URL=/ react-scripts start",
+    "start": "react-scripts start",
     "predeploy" : "npm run build",
-    "deploy" : "PUBLIC_URL=/ gh-pages -d build",
-    "build": "PUBLIC_URL=/ react-scripts build",
+    "deploy" : "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
