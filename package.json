@@ -1,7 +1,7 @@
 {
   "name": "react-rmdb",
   "version": "0.1.0",
-  "homepage": "https://shbhmj.github.io/react-rmdb/",
+  "homepage": "https://shbhmj.github.io/react-movies/",
   "private": true,
   "dependencies": {
     "gh-pages": "^4.0.0",
